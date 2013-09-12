@@ -7,6 +7,7 @@
 //
 
 #import "LLDAppDelegate.h"
+#import "LLDTestViewController.h"
 
 @implementation LLDAppDelegate
 
@@ -18,6 +19,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    LLDTestViewController *testController = [[LLDTestViewController alloc ]init];
+    self.window.rootViewController = testController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
