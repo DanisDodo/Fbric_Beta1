@@ -7,7 +7,7 @@
 //
 
 #import "LLDAppDelegate.h"
-#import "LLDTestViewController.h"
+#import "LLDTableViewController.h"
 
 @implementation LLDAppDelegate
 
@@ -19,8 +19,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    LLDTestViewController *testController = [[LLDTestViewController alloc ]init];
-    self.window.rootViewController = testController;
+    self.viewController = [[LLDTableViewController alloc]init];
+    self.window.rootViewController = self.viewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

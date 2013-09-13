@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12E74FAF17E289C000EC46EC /* LLDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FAE17E289C000EC46EC /* LLDTableViewController.m */; };
+		12E74FB117E28A7E00EC46EC /* LLDMemorialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FB017E28A7E00EC46EC /* LLDMemorialCell.xib */; };
+		12E74FB517E28F9C00EC46EC /* default_back_568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FB217E28F9C00EC46EC /* default_back_568h@2x.jpg */; };
+		12E74FB617E28F9C00EC46EC /* default_back@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FB317E28F9C00EC46EC /* default_back@2x.jpg */; };
+		12E74FB717E28F9C00EC46EC /* default_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FB417E28F9C00EC46EC /* default_back.jpg */; };
+		12E74FBD17E297BD00EC46EC /* LLDDeviceDecidor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FBC17E297BD00EC46EC /* LLDDeviceDecidor.m */; };
+		12E74FBF17E29AE700EC46EC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FBE17E29AE700EC46EC /* logo.png */; };
+		12E74FC117E29D4800EC46EC /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FC017E29D4700EC46EC /* add.png */; };
+		12E74FC417E29F6D00EC46EC /* LLDMemorialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FC317E29F6D00EC46EC /* LLDMemorialCell.m */; };
 		12E899B317E1B9CF00AF8F3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E899B217E1B9CF00AF8F3B /* UIKit.framework */; };
 		12E899B517E1B9CF00AF8F3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E899B417E1B9CF00AF8F3B /* Foundation.framework */; };
 		12E899B717E1B9CF00AF8F3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E899B617E1B9CF00AF8F3B /* CoreGraphics.framework */; };
@@ -27,6 +36,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12E74FAD17E289C000EC46EC /* LLDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDTableViewController.h; sourceTree = "<group>"; };
+		12E74FAE17E289C000EC46EC /* LLDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDTableViewController.m; sourceTree = "<group>"; };
+		12E74FB017E28A7E00EC46EC /* LLDMemorialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLDMemorialCell.xib; sourceTree = "<group>"; };
+		12E74FB217E28F9C00EC46EC /* default_back_568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "default_back_568h@2x.jpg"; sourceTree = "<group>"; };
+		12E74FB317E28F9C00EC46EC /* default_back@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "default_back@2x.jpg"; sourceTree = "<group>"; };
+		12E74FB417E28F9C00EC46EC /* default_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default_back.jpg; sourceTree = "<group>"; };
+		12E74FBB17E297BD00EC46EC /* LLDDeviceDecidor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDDeviceDecidor.h; sourceTree = "<group>"; };
+		12E74FBC17E297BD00EC46EC /* LLDDeviceDecidor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDDeviceDecidor.m; sourceTree = "<group>"; };
+		12E74FBE17E29AE700EC46EC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		12E74FC017E29D4700EC46EC /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		12E74FC217E29F6D00EC46EC /* LLDMemorialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDMemorialCell.h; sourceTree = "<group>"; };
+		12E74FC317E29F6D00EC46EC /* LLDMemorialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDMemorialCell.m; sourceTree = "<group>"; };
 		12E899AF17E1B9CF00AF8F3B /* Fabric_Beta1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fabric_Beta1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E899B217E1B9CF00AF8F3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		12E899B417E1B9CF00AF8F3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,6 +91,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12E74FAB17E2899300EC46EC /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				12E74FAD17E289C000EC46EC /* LLDTableViewController.h */,
+				12E74FAE17E289C000EC46EC /* LLDTableViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		12E74FAC17E289A700EC46EC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				12E74FB017E28A7E00EC46EC /* LLDMemorialCell.xib */,
+				12E74FC217E29F6D00EC46EC /* LLDMemorialCell.h */,
+				12E74FC317E29F6D00EC46EC /* LLDMemorialCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		12E74FB917E295B400EC46EC /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				12E899E817E1DAF900AF8F3B /* NSDate+Helper.h */,
+				12E899E917E1DAF900AF8F3B /* NSDate+Helper.m */,
+				12E74FBB17E297BD00EC46EC /* LLDDeviceDecidor.h */,
+				12E74FBC17E297BD00EC46EC /* LLDDeviceDecidor.m */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
 		12E899A617E1B9CF00AF8F3B = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +152,14 @@
 		12E899BA17E1B9CF00AF8F3B /* Fabric_Beta1 */ = {
 			isa = PBXGroup;
 			children = (
-				12E899E317E1CEBF00AF8F3B /* resource */,
-				12E899DF17E1C0BE00AF8F3B /* test */,
 				12E899C317E1B9CF00AF8F3B /* LLDAppDelegate.h */,
 				12E899C417E1B9CF00AF8F3B /* LLDAppDelegate.m */,
-				12E899D717E1BA7F00AF8F3B /* modle */,
+				12E74FB917E295B400EC46EC /* tools */,
+				12E74FAC17E289A700EC46EC /* view */,
+				12E74FAB17E2899300EC46EC /* controller */,
+				12E899E317E1CEBF00AF8F3B /* resource */,
+				12E899DF17E1C0BE00AF8F3B /* test */,
+				12E899D717E1BA7F00AF8F3B /* model */,
 				12E899BB17E1B9CF00AF8F3B /* Supporting Files */,
 			);
 			path = Fabric_Beta1;
@@ -118,14 +172,11 @@
 				12E899BD17E1B9CF00AF8F3B /* InfoPlist.strings */,
 				12E899C017E1B9CF00AF8F3B /* main.m */,
 				12E899C217E1B9CF00AF8F3B /* Fabric_Beta1-Prefix.pch */,
-				12E899C617E1B9CF00AF8F3B /* Default.png */,
-				12E899C817E1B9CF00AF8F3B /* Default@2x.png */,
-				12E899CA17E1B9CF00AF8F3B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		12E899D717E1BA7F00AF8F3B /* modle */ = {
+		12E899D717E1BA7F00AF8F3B /* model */ = {
 			isa = PBXGroup;
 			children = (
 				12E899CC17E1B9CF00AF8F3B /* Fabric_Beta1.xcdatamodeld */,
@@ -134,10 +185,8 @@
 				12E899D817E1BABA00AF8F3B /* MemorialType.h */,
 				12E899DC17E1BCF900AF8F3B /* LLDDataManager.h */,
 				12E899DD17E1BCF900AF8F3B /* LLDDataManager.m */,
-				12E899E817E1DAF900AF8F3B /* NSDate+Helper.h */,
-				12E899E917E1DAF900AF8F3B /* NSDate+Helper.m */,
 			);
-			name = modle;
+			name = model;
 			sourceTree = "<group>";
 		};
 		12E899DF17E1C0BE00AF8F3B /* test */ = {
@@ -152,6 +201,14 @@
 		12E899E317E1CEBF00AF8F3B /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				12E74FC017E29D4700EC46EC /* add.png */,
+				12E899C617E1B9CF00AF8F3B /* Default.png */,
+				12E74FBE17E29AE700EC46EC /* logo.png */,
+				12E899C817E1B9CF00AF8F3B /* Default@2x.png */,
+				12E899CA17E1B9CF00AF8F3B /* Default-568h@2x.png */,
+				12E74FB217E28F9C00EC46EC /* default_back_568h@2x.jpg */,
+				12E74FB317E28F9C00EC46EC /* default_back@2x.jpg */,
+				12E74FB417E28F9C00EC46EC /* default_back.jpg */,
 				12E899E417E1CED900AF8F3B /* test1.png */,
 				12E899E617E1D5DA00AF8F3B /* test2.jpg */,
 			);
@@ -216,6 +273,12 @@
 				12E899CB17E1B9CF00AF8F3B /* Default-568h@2x.png in Resources */,
 				12E899E517E1CED900AF8F3B /* test1.png in Resources */,
 				12E899E717E1D5DA00AF8F3B /* test2.jpg in Resources */,
+				12E74FB117E28A7E00EC46EC /* LLDMemorialCell.xib in Resources */,
+				12E74FB517E28F9C00EC46EC /* default_back_568h@2x.jpg in Resources */,
+				12E74FB617E28F9C00EC46EC /* default_back@2x.jpg in Resources */,
+				12E74FB717E28F9C00EC46EC /* default_back.jpg in Resources */,
+				12E74FBF17E29AE700EC46EC /* logo.png in Resources */,
+				12E74FC117E29D4800EC46EC /* add.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +296,9 @@
 				12E899DE17E1BCF900AF8F3B /* LLDDataManager.m in Sources */,
 				12E899E217E1C0F300AF8F3B /* LLDTestViewController.m in Sources */,
 				12E899EA17E1DAF900AF8F3B /* NSDate+Helper.m in Sources */,
+				12E74FAF17E289C000EC46EC /* LLDTableViewController.m in Sources */,
+				12E74FBD17E297BD00EC46EC /* LLDDeviceDecidor.m in Sources */,
+				12E74FC417E29F6D00EC46EC /* LLDMemorialCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
