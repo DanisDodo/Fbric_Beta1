@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface LLDTableViewController : UIViewController
-  <UITableViewDataSource,UITableViewDelegate>
+  <UITableViewDataSource,UITableViewDelegate,UIActionSheetDelegate>
 
 @property (strong, nonatomic) UITableView *tableView;
 @property (strong, nonatomic) UIImageView *backgroundImageView;
 
 @property (strong, nonatomic) NSMutableArray *memList;
+
+//重新从CoreData读取数据，并刷新界面
+-(void)reloadData;
 
 @end

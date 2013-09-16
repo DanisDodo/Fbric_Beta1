@@ -25,5 +25,13 @@
     NSTimeInterval interval = [[NSDate localDate]timeIntervalSinceDate:pastDate];
     return interval/86400;
 }
+-(NSString *)toStringOfYearMonthDay{
+    NSDateComponents *components = [[NSCalendar currentCalendar] components:NSDayCalendarUnit | NSMonthCalendarUnit | NSYearCalendarUnit fromDate:self];
+    
+    NSInteger day = [components day];
+    NSInteger month= [components month];
+    NSInteger year= [components year];
+    return [NSString stringWithFormat:@"%d年%d月%d日",year,month,day];
+}
 
 @end

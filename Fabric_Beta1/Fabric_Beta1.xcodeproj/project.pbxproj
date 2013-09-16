@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121C8A8E17E6AE6500CD7D96 /* LLDImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 121C8A8D17E6AE6500CD7D96 /* LLDImagePickerController.m */; };
+		121C8A9117E6AEAE00CD7D96 /* LLDImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 121C8A9017E6AEAE00CD7D96 /* LLDImageCropper.m */; };
 		12E74FAF17E289C000EC46EC /* LLDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FAE17E289C000EC46EC /* LLDTableViewController.m */; };
 		12E74FB117E28A7E00EC46EC /* LLDMemorialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FB017E28A7E00EC46EC /* LLDMemorialCell.xib */; };
 		12E74FB517E28F9C00EC46EC /* default_back_568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FB217E28F9C00EC46EC /* default_back_568h@2x.jpg */; };
@@ -16,6 +18,15 @@
 		12E74FBF17E29AE700EC46EC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FBE17E29AE700EC46EC /* logo.png */; };
 		12E74FC117E29D4800EC46EC /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FC017E29D4700EC46EC /* add.png */; };
 		12E74FC417E29F6D00EC46EC /* LLDMemorialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FC317E29F6D00EC46EC /* LLDMemorialCell.m */; };
+		12E74FC717E2CF8000EC46EC /* LLDEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FC617E2CF8000EC46EC /* LLDEditViewController.m */; };
+		12E74FCA17E2CF9800EC46EC /* LLDGallaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FC917E2CF9800EC46EC /* LLDGallaryViewController.m */; };
+		12E74FCC17E2D29000EC46EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E74FCB17E2D29000EC46EC /* QuartzCore.framework */; };
+		12E74FCF17E2D78500EC46EC /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FCE17E2D78500EC46EC /* UIImage+Blur.m */; };
+		12E74FD117E2D7C100EC46EC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E74FD017E2D7C100EC46EC /* Accelerate.framework */; };
+		12E74FD417E2EA7A00EC46EC /* LLDPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FD317E2EA7900EC46EC /* LLDPageView.m */; };
+		12E74FD817E3EB7F00EC46EC /* pick_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FD517E3EB7E00EC46EC /* pick_image.png */; };
+		12E74FD917E3EB7F00EC46EC /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FD617E3EB7F00EC46EC /* close.png */; };
+		12E74FDA17E3EB7F00EC46EC /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FD717E3EB7F00EC46EC /* yes.png */; };
 		12E899B317E1B9CF00AF8F3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E899B217E1B9CF00AF8F3B /* UIKit.framework */; };
 		12E899B517E1B9CF00AF8F3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E899B417E1B9CF00AF8F3B /* Foundation.framework */; };
 		12E899B717E1B9CF00AF8F3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E899B617E1B9CF00AF8F3B /* CoreGraphics.framework */; };
@@ -36,6 +47,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		121C8A8C17E6AE6500CD7D96 /* LLDImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDImagePickerController.h; sourceTree = "<group>"; };
+		121C8A8D17E6AE6500CD7D96 /* LLDImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDImagePickerController.m; sourceTree = "<group>"; };
+		121C8A8F17E6AEAD00CD7D96 /* LLDImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDImageCropper.h; sourceTree = "<group>"; };
+		121C8A9017E6AEAE00CD7D96 /* LLDImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDImageCropper.m; sourceTree = "<group>"; };
 		12E74FAD17E289C000EC46EC /* LLDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDTableViewController.h; sourceTree = "<group>"; };
 		12E74FAE17E289C000EC46EC /* LLDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDTableViewController.m; sourceTree = "<group>"; };
 		12E74FB017E28A7E00EC46EC /* LLDMemorialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLDMemorialCell.xib; sourceTree = "<group>"; };
@@ -48,6 +63,19 @@
 		12E74FC017E29D4700EC46EC /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		12E74FC217E29F6D00EC46EC /* LLDMemorialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDMemorialCell.h; sourceTree = "<group>"; };
 		12E74FC317E29F6D00EC46EC /* LLDMemorialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDMemorialCell.m; sourceTree = "<group>"; };
+		12E74FC517E2CF8000EC46EC /* LLDEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDEditViewController.h; sourceTree = "<group>"; };
+		12E74FC617E2CF8000EC46EC /* LLDEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDEditViewController.m; sourceTree = "<group>"; };
+		12E74FC817E2CF9800EC46EC /* LLDGallaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDGallaryViewController.h; sourceTree = "<group>"; };
+		12E74FC917E2CF9800EC46EC /* LLDGallaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDGallaryViewController.m; sourceTree = "<group>"; };
+		12E74FCB17E2D29000EC46EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		12E74FCD17E2D78500EC46EC /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		12E74FCE17E2D78500EC46EC /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		12E74FD017E2D7C100EC46EC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		12E74FD217E2EA7900EC46EC /* LLDPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDPageView.h; sourceTree = "<group>"; };
+		12E74FD317E2EA7900EC46EC /* LLDPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDPageView.m; sourceTree = "<group>"; };
+		12E74FD517E3EB7E00EC46EC /* pick_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick_image.png; sourceTree = "<group>"; };
+		12E74FD617E3EB7F00EC46EC /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		12E74FD717E3EB7F00EC46EC /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes.png; sourceTree = "<group>"; };
 		12E899AF17E1B9CF00AF8F3B /* Fabric_Beta1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fabric_Beta1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E899B217E1B9CF00AF8F3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		12E899B417E1B9CF00AF8F3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,6 +109,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E74FD117E2D7C100EC46EC /* Accelerate.framework in Frameworks */,
+				12E74FCC17E2D29000EC46EC /* QuartzCore.framework in Frameworks */,
 				12E899B317E1B9CF00AF8F3B /* UIKit.framework in Frameworks */,
 				12E899B517E1B9CF00AF8F3B /* Foundation.framework in Frameworks */,
 				12E899B717E1B9CF00AF8F3B /* CoreGraphics.framework in Frameworks */,
@@ -91,11 +121,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121C8A8B17E6ADD700CD7D96 /* imagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				121C8A8C17E6AE6500CD7D96 /* LLDImagePickerController.h */,
+				121C8A8D17E6AE6500CD7D96 /* LLDImagePickerController.m */,
+				121C8A8F17E6AEAD00CD7D96 /* LLDImageCropper.h */,
+				121C8A9017E6AEAE00CD7D96 /* LLDImageCropper.m */,
+			);
+			name = imagePicker;
+			sourceTree = "<group>";
+		};
 		12E74FAB17E2899300EC46EC /* controller */ = {
 			isa = PBXGroup;
 			children = (
 				12E74FAD17E289C000EC46EC /* LLDTableViewController.h */,
 				12E74FAE17E289C000EC46EC /* LLDTableViewController.m */,
+				12E74FC517E2CF8000EC46EC /* LLDEditViewController.h */,
+				12E74FC617E2CF8000EC46EC /* LLDEditViewController.m */,
+				12E74FC817E2CF9800EC46EC /* LLDGallaryViewController.h */,
+				12E74FC917E2CF9800EC46EC /* LLDGallaryViewController.m */,
+				121C8A8B17E6ADD700CD7D96 /* imagePicker */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -106,6 +152,8 @@
 				12E74FB017E28A7E00EC46EC /* LLDMemorialCell.xib */,
 				12E74FC217E29F6D00EC46EC /* LLDMemorialCell.h */,
 				12E74FC317E29F6D00EC46EC /* LLDMemorialCell.m */,
+				12E74FD217E2EA7900EC46EC /* LLDPageView.h */,
+				12E74FD317E2EA7900EC46EC /* LLDPageView.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -117,6 +165,8 @@
 				12E899E917E1DAF900AF8F3B /* NSDate+Helper.m */,
 				12E74FBB17E297BD00EC46EC /* LLDDeviceDecidor.h */,
 				12E74FBC17E297BD00EC46EC /* LLDDeviceDecidor.m */,
+				12E74FCD17E2D78500EC46EC /* UIImage+Blur.h */,
+				12E74FCE17E2D78500EC46EC /* UIImage+Blur.m */,
 			);
 			name = tools;
 			sourceTree = "<group>";
@@ -124,6 +174,7 @@
 		12E899A617E1B9CF00AF8F3B = {
 			isa = PBXGroup;
 			children = (
+				12E899E317E1CEBF00AF8F3B /* resource */,
 				12E899BA17E1B9CF00AF8F3B /* Fabric_Beta1 */,
 				12E899B117E1B9CF00AF8F3B /* Frameworks */,
 				12E899B017E1B9CF00AF8F3B /* Products */,
@@ -141,6 +192,8 @@
 		12E899B117E1B9CF00AF8F3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				12E74FD017E2D7C100EC46EC /* Accelerate.framework */,
+				12E74FCB17E2D29000EC46EC /* QuartzCore.framework */,
 				12E899B217E1B9CF00AF8F3B /* UIKit.framework */,
 				12E899B417E1B9CF00AF8F3B /* Foundation.framework */,
 				12E899B617E1B9CF00AF8F3B /* CoreGraphics.framework */,
@@ -157,7 +210,6 @@
 				12E74FB917E295B400EC46EC /* tools */,
 				12E74FAC17E289A700EC46EC /* view */,
 				12E74FAB17E2899300EC46EC /* controller */,
-				12E899E317E1CEBF00AF8F3B /* resource */,
 				12E899DF17E1C0BE00AF8F3B /* test */,
 				12E899D717E1BA7F00AF8F3B /* model */,
 				12E899BB17E1B9CF00AF8F3B /* Supporting Files */,
@@ -201,6 +253,9 @@
 		12E899E317E1CEBF00AF8F3B /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				12E74FD517E3EB7E00EC46EC /* pick_image.png */,
+				12E74FD617E3EB7F00EC46EC /* close.png */,
+				12E74FD717E3EB7F00EC46EC /* yes.png */,
 				12E74FC017E29D4700EC46EC /* add.png */,
 				12E899C617E1B9CF00AF8F3B /* Default.png */,
 				12E74FBE17E29AE700EC46EC /* logo.png */,
@@ -213,6 +268,7 @@
 				12E899E617E1D5DA00AF8F3B /* test2.jpg */,
 			);
 			name = resource;
+			path = Fabric_Beta1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +335,9 @@
 				12E74FB717E28F9C00EC46EC /* default_back.jpg in Resources */,
 				12E74FBF17E29AE700EC46EC /* logo.png in Resources */,
 				12E74FC117E29D4800EC46EC /* add.png in Resources */,
+				12E74FD817E3EB7F00EC46EC /* pick_image.png in Resources */,
+				12E74FD917E3EB7F00EC46EC /* close.png in Resources */,
+				12E74FDA17E3EB7F00EC46EC /* yes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +358,12 @@
 				12E74FAF17E289C000EC46EC /* LLDTableViewController.m in Sources */,
 				12E74FBD17E297BD00EC46EC /* LLDDeviceDecidor.m in Sources */,
 				12E74FC417E29F6D00EC46EC /* LLDMemorialCell.m in Sources */,
+				12E74FC717E2CF8000EC46EC /* LLDEditViewController.m in Sources */,
+				12E74FCA17E2CF9800EC46EC /* LLDGallaryViewController.m in Sources */,
+				12E74FCF17E2D78500EC46EC /* UIImage+Blur.m in Sources */,
+				12E74FD417E2EA7A00EC46EC /* LLDPageView.m in Sources */,
+				121C8A8E17E6AE6500CD7D96 /* LLDImagePickerController.m in Sources */,
+				121C8A9117E6AEAE00CD7D96 /* LLDImageCropper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

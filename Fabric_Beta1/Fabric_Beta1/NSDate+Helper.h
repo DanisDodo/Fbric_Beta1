@@ -12,5 +12,6 @@
 
 +(NSDate *)localDate;
 -(int)daysFromDate:(NSDate *)pastDate;
+-(NSString *)toStringOfYearMonthDay;
 
 @end
