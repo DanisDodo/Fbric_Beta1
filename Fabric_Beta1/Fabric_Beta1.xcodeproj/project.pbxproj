@@ -23,7 +23,6 @@
 		12E74FCC17E2D29000EC46EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E74FCB17E2D29000EC46EC /* QuartzCore.framework */; };
 		12E74FCF17E2D78500EC46EC /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FCE17E2D78500EC46EC /* UIImage+Blur.m */; };
 		12E74FD117E2D7C100EC46EC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E74FD017E2D7C100EC46EC /* Accelerate.framework */; };
-		12E74FD417E2EA7A00EC46EC /* LLDPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FD317E2EA7900EC46EC /* LLDPageView.m */; };
 		12E74FD817E3EB7F00EC46EC /* pick_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FD517E3EB7E00EC46EC /* pick_image.png */; };
 		12E74FD917E3EB7F00EC46EC /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FD617E3EB7F00EC46EC /* close.png */; };
 		12E74FDA17E3EB7F00EC46EC /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FD717E3EB7F00EC46EC /* yes.png */; };
@@ -71,8 +70,6 @@
 		12E74FCD17E2D78500EC46EC /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
 		12E74FCE17E2D78500EC46EC /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
 		12E74FD017E2D7C100EC46EC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		12E74FD217E2EA7900EC46EC /* LLDPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDPageView.h; sourceTree = "<group>"; };
-		12E74FD317E2EA7900EC46EC /* LLDPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDPageView.m; sourceTree = "<group>"; };
 		12E74FD517E3EB7E00EC46EC /* pick_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick_image.png; sourceTree = "<group>"; };
 		12E74FD617E3EB7F00EC46EC /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		12E74FD717E3EB7F00EC46EC /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes.png; sourceTree = "<group>"; };
@@ -152,8 +149,6 @@
 				12E74FB017E28A7E00EC46EC /* LLDMemorialCell.xib */,
 				12E74FC217E29F6D00EC46EC /* LLDMemorialCell.h */,
 				12E74FC317E29F6D00EC46EC /* LLDMemorialCell.m */,
-				12E74FD217E2EA7900EC46EC /* LLDPageView.h */,
-				12E74FD317E2EA7900EC46EC /* LLDPageView.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -361,7 +356,6 @@
 				12E74FC717E2CF8000EC46EC /* LLDEditViewController.m in Sources */,
 				12E74FCA17E2CF9800EC46EC /* LLDGallaryViewController.m in Sources */,
 				12E74FCF17E2D78500EC46EC /* UIImage+Blur.m in Sources */,
-				12E74FD417E2EA7A00EC46EC /* LLDPageView.m in Sources */,
 				121C8A8E17E6AE6500CD7D96 /* LLDImagePickerController.m in Sources */,
 				121C8A9117E6AEAE00CD7D96 /* LLDImageCropper.m in Sources */,
 			);

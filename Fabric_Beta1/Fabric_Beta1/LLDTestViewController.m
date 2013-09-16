@@ -30,19 +30,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    LLDDataManager *manager = [LLDDataManager sharedDataManager];
-//    NSArray *array = [manager allObjects];
-//    MemorialDay *day = [array objectAtIndex:0];
-//    day.startDate = [NSDate date];
-//    [manager updateObjecWith:day];
-//    NSLog(@"%@",day.title);
-//    NSLog(@"%@",day.type);
-//    NSLog(@"%@",day.startDate);
-//    UIImageView *imageView = [[UIImageView alloc]initWithImage:day.cover];
-//    [self.view addSubview:imageView];
-//
-    NSDate *now = [NSDate localDate];
-    NSDate *past = [NSDate dateWithTimeInterval:-100000 sinceDate:now];
     
 }
 
