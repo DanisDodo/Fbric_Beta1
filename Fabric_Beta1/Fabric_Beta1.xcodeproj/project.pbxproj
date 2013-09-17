@@ -11,7 +11,7 @@
 		121C8A9117E6AEAE00CD7D96 /* LLDImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 121C8A9017E6AEAE00CD7D96 /* LLDImageCropper.m */; };
 		1253664017E85AA100EAF96F /* LLDActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1253663F17E85AA100EAF96F /* LLDActionView.m */; };
 		1253664417E862D800EAF96F /* done_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1253664317E862D800EAF96F /* done_background.png */; };
-		1253664717E86BD000EAF96F /* LLDActionDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1253664617E86BD000EAF96F /* LLDActionDatePicker.m */; };
+		1253664A17E86FEE00EAF96F /* LLDActionDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1253664917E86FEE00EAF96F /* LLDActionDatePicker.m */; };
 		12E74FAF17E289C000EC46EC /* LLDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E74FAE17E289C000EC46EC /* LLDTableViewController.m */; };
 		12E74FB117E28A7E00EC46EC /* LLDMemorialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FB017E28A7E00EC46EC /* LLDMemorialCell.xib */; };
 		12E74FB517E28F9C00EC46EC /* default_back_568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12E74FB217E28F9C00EC46EC /* default_back_568h@2x.jpg */; };
@@ -56,8 +56,8 @@
 		1253663E17E85AA100EAF96F /* LLDActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDActionView.h; sourceTree = "<group>"; };
 		1253663F17E85AA100EAF96F /* LLDActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDActionView.m; sourceTree = "<group>"; };
 		1253664317E862D800EAF96F /* done_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done_background.png; sourceTree = "<group>"; };
-		1253664517E86BD000EAF96F /* LLDActionDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDActionDatePicker.h; sourceTree = "<group>"; };
-		1253664617E86BD000EAF96F /* LLDActionDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDActionDatePicker.m; sourceTree = "<group>"; };
+		1253664817E86FEE00EAF96F /* LLDActionDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDActionDatePicker.h; sourceTree = "<group>"; };
+		1253664917E86FEE00EAF96F /* LLDActionDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDActionDatePicker.m; sourceTree = "<group>"; };
 		12E74FAD17E289C000EC46EC /* LLDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDTableViewController.h; sourceTree = "<group>"; };
 		12E74FAE17E289C000EC46EC /* LLDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDTableViewController.m; sourceTree = "<group>"; };
 		12E74FB017E28A7E00EC46EC /* LLDMemorialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLDMemorialCell.xib; sourceTree = "<group>"; };
@@ -144,8 +144,8 @@
 				12E74FC617E2CF8000EC46EC /* LLDEditViewController.m */,
 				1253663E17E85AA100EAF96F /* LLDActionView.h */,
 				1253663F17E85AA100EAF96F /* LLDActionView.m */,
-				1253664517E86BD000EAF96F /* LLDActionDatePicker.h */,
-				1253664617E86BD000EAF96F /* LLDActionDatePicker.m */,
+				1253664817E86FEE00EAF96F /* LLDActionDatePicker.h */,
+				1253664917E86FEE00EAF96F /* LLDActionDatePicker.m */,
 			);
 			name = memorialEdit;
 			sourceTree = "<group>";
@@ -381,7 +381,7 @@
 				121C8A8E17E6AE6500CD7D96 /* LLDImagePickerController.m in Sources */,
 				121C8A9117E6AEAE00CD7D96 /* LLDImageCropper.m in Sources */,
 				1253664017E85AA100EAF96F /* LLDActionView.m in Sources */,
-				1253664717E86BD000EAF96F /* LLDActionDatePicker.m in Sources */,
+				1253664A17E86FEE00EAF96F /* LLDActionDatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

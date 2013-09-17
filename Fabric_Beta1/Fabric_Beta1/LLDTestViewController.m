@@ -12,13 +12,15 @@
 #import "MemorialType.h"
 #import "NSDate+Helper.h"
 #import "LLDActionView.h"
-#import "LLDActionDatePicker.m"
+#import "LLDActionDatePicker.h"
+
 
 @interface LLDTestViewController ()
 
 @property (strong, nonatomic) UIButton *showButton;
 @property (nonatomic) BOOL isHidden;
 @property (strong, nonatomic) LLDActionView *actionView;
+@property (strong, nonatomic) LLDActionDatePicker *datePicker;
 
 @end
 
@@ -41,6 +43,7 @@
     self.showButton.frame = CGRectMake(0, 0, 60, 30);
     [self.showButton setTitle:@"button" forState:UIControlStateNormal];
     [self.showButton addTarget:self action:@selector(clickButton) forControlEvents:UIControlEventTouchUpInside];
+    self.datePicker = [[LLDActionDatePicker alloc]init];
     [self.view addSubview:self.showButton];
     
 }
@@ -51,10 +54,9 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)clickButton{
-    self.actionView = [[LLDActionView alloc]init];
-    [self.actionView showInView:self.view];
-//    LLDActionDatePicker *picker = [[LLDActionDatePicker alloc]init];
-//    [picker showInView:self.view];
+//    self.actionView = [[LLDActionView alloc]init];
+//    [self.actionView showInView:self.view];
+    [self.datePicker showInView:self.view];
 }
 
 @end

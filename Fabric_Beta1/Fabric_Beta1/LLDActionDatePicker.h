@@ -8,8 +8,19 @@
 
 #import "LLDActionView.h"
 
+@protocol LLDActionDatePickerDelegate;
+
+
 @interface LLDActionDatePicker : LLDActionView
 
 @property (strong, nonatomic) UIDatePicker *datePicker;
+
+@property (strong, nonatomic) id<LLDActionDatePickerDelegate> delegate;
+
+@end
+
+@protocol LLDActionDatePickerDelegate <NSObject>
+
+-(void)actionDatePicker:(LLDActionDatePicker *) datePicker dateChanged:(NSDate *)date;
 
 @end

@@ -11,6 +11,7 @@
 
 @interface LLDActionView(){
     CGSize screenSize;
+    BOOL isHidden;
 }
 
 @end
@@ -33,6 +34,7 @@
     self = [super init];
     if (self) {
         screenSize = [UIScreen mainScreen].bounds.size;
+        isHidden = YES;
         self.frame = CGRectMake(0, screenSize.height, screenSize.width, 216);
         self.backgroundColor = [UIColor whiteColor];
         [self.layer setShadowColor:[UIColor darkGrayColor].CGColor];
@@ -64,23 +66,27 @@
 }
 
 -(void)showInView:(UIView *)parentView{
-    [parentView addSubview:self];
-    [UIView beginAnimations:@"show" context:nil];
-    [UIView setAnimationDuration:0.2];
-    [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
-    [self setFrame:CGRectMake(0, screenSize.height-216, screenSize.width, 216)];
-    [UIView commitAnimations];
+    if (isHidden) {
+        [parentView addSubview:self];
+        [UIView beginAnimations:@"show" context:nil];
+        [UIView setAnimationDuration:0.2];
+        [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
+        [self setFrame:CGRectMake(0, screenSize.height-216, screenSize.width, 216)];
+        [self setAlpha:1];
+        [UIView commitAnimations];
+    }else{
+        [self hidden];
+    }
+    isHidden = !isHidden;
+
 }
 -(void)hidden{
     [UIView beginAnimations:@"hidden" context:nil];
     [UIView setAnimationDuration:0.2];
     [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
     [self setFrame:CGRectMake(0, screenSize.height, screenSize.width, 216)];
-    [UIView setAnimationDidStopSelector:@selector(removeIt)];
+    [self setAlpha:0];
     [UIView commitAnimations];
-}
--(void)removeIt{
-    [self removeFromSuperview];
 }
 
 @end
