@@ -146,6 +146,12 @@
     int count = [[NSDate localDate]daysFromDate:memDay.startDate];
     cell.titleLabel.text = memDay.title;
     cell.countLabel.text = [NSString stringWithFormat:@"%d",count];
+    if (indexPath.row%2 == 1) {
+        cell.contentView.backgroundColor = [UIColor clearColor];
+        NSLog(@"单数");
+    }else{
+        cell.contentView.backgroundColor = [UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:0.4];
+    }
     return cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
