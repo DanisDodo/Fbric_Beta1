@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LLDActionTypePicker.h"
 
 @interface LLDTestViewController : UIViewController
+  <LLDActionTypePickerDelegate>
 
 @end

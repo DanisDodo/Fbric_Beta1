@@ -37,6 +37,7 @@
         isHidden = YES;
         self.frame = CGRectMake(0, screenSize.height, screenSize.width, 216);
         self.backgroundColor = [UIColor whiteColor];
+
         [self.layer setShadowColor:[UIColor darkGrayColor].CGColor];
         [self.layer setShadowOffset:CGSizeMake(0, -3)];
         [self.layer setShadowOpacity:1];
@@ -68,17 +69,21 @@
 -(void)showInView:(UIView *)parentView{
     if (isHidden) {
         [parentView addSubview:self];
-        [UIView beginAnimations:@"show" context:nil];
-        [UIView setAnimationDuration:0.2];
-        [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
-        [self setFrame:CGRectMake(0, screenSize.height-216, screenSize.width, 216)];
-        [self setAlpha:1];
-        [UIView commitAnimations];
+        [self show];
     }else{
         [self hidden];
     }
-    isHidden = !isHidden;
 
+}
+-(void)show{
+    [UIView beginAnimations:@"show" context:nil];
+    [UIView setAnimationDuration:0.2];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
+    [self setFrame:CGRectMake(0, screenSize.height-216, screenSize.width, 216)];
+    [self setAlpha:1];
+    [UIView commitAnimations];
+    isHidden = !isHidden;
+    
 }
 -(void)hidden{
     [UIView beginAnimations:@"hidden" context:nil];
@@ -87,6 +92,7 @@
     [self setFrame:CGRectMake(0, screenSize.height, screenSize.width, 216)];
     [self setAlpha:0];
     [UIView commitAnimations];
+    isHidden = !isHidden;
 }
 
 @end

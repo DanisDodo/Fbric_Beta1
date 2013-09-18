@@ -46,6 +46,9 @@
 		12E899E517E1CED900AF8F3B /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E899E417E1CED900AF8F3B /* test1.png */; };
 		12E899E717E1D5DA00AF8F3B /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12E899E617E1D5DA00AF8F3B /* test2.jpg */; };
 		12E899EA17E1DAF900AF8F3B /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E899E917E1DAF900AF8F3B /* NSDate+Helper.m */; };
+		12EF34AF17E977A6005F1E2A /* LLDTypeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EF34AE17E977A6005F1E2A /* LLDTypeItem.m */; };
+		12EF34B217E97E48005F1E2A /* LLDTypeItemContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EF34B117E97E48005F1E2A /* LLDTypeItemContainer.m */; };
+		12EF34B817E981B8005F1E2A /* LLDActionTypePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EF34B717E981B8005F1E2A /* LLDActionTypePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +110,13 @@
 		12E899E617E1D5DA00AF8F3B /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
 		12E899E817E1DAF900AF8F3B /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
 		12E899E917E1DAF900AF8F3B /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
+		12EF34AC17E9771F005F1E2A /* LLDSelectableItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDSelectableItem.h; sourceTree = "<group>"; };
+		12EF34AD17E977A6005F1E2A /* LLDTypeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDTypeItem.h; sourceTree = "<group>"; };
+		12EF34AE17E977A6005F1E2A /* LLDTypeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDTypeItem.m; sourceTree = "<group>"; };
+		12EF34B017E97E48005F1E2A /* LLDTypeItemContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDTypeItemContainer.h; sourceTree = "<group>"; };
+		12EF34B117E97E48005F1E2A /* LLDTypeItemContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDTypeItemContainer.m; sourceTree = "<group>"; };
+		12EF34B617E981B8005F1E2A /* LLDActionTypePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDActionTypePicker.h; sourceTree = "<group>"; };
+		12EF34B717E981B8005F1E2A /* LLDActionTypePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDActionTypePicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,10 +152,6 @@
 			children = (
 				12E74FC517E2CF8000EC46EC /* LLDEditViewController.h */,
 				12E74FC617E2CF8000EC46EC /* LLDEditViewController.m */,
-				1253663E17E85AA100EAF96F /* LLDActionView.h */,
-				1253663F17E85AA100EAF96F /* LLDActionView.m */,
-				1253664817E86FEE00EAF96F /* LLDActionDatePicker.h */,
-				1253664917E86FEE00EAF96F /* LLDActionDatePicker.m */,
 			);
 			name = memorialEdit;
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 				12E74FAE17E289C000EC46EC /* LLDTableViewController.m */,
 				12E74FC817E2CF9800EC46EC /* LLDGallaryViewController.h */,
 				12E74FC917E2CF9800EC46EC /* LLDGallaryViewController.m */,
+				12EF34AB17E97691005F1E2A /* actionView */,
 				123F286717E70B9A007FCC9A /* memorialEdit */,
 				121C8A8B17E6ADD700CD7D96 /* imagePicker */,
 			);
@@ -287,6 +294,24 @@
 			path = Fabric_Beta1;
 			sourceTree = "<group>";
 		};
+		12EF34AB17E97691005F1E2A /* actionView */ = {
+			isa = PBXGroup;
+			children = (
+				1253663E17E85AA100EAF96F /* LLDActionView.h */,
+				1253663F17E85AA100EAF96F /* LLDActionView.m */,
+				1253664817E86FEE00EAF96F /* LLDActionDatePicker.h */,
+				1253664917E86FEE00EAF96F /* LLDActionDatePicker.m */,
+				12EF34B617E981B8005F1E2A /* LLDActionTypePicker.h */,
+				12EF34B717E981B8005F1E2A /* LLDActionTypePicker.m */,
+				12EF34AC17E9771F005F1E2A /* LLDSelectableItem.h */,
+				12EF34AD17E977A6005F1E2A /* LLDTypeItem.h */,
+				12EF34AE17E977A6005F1E2A /* LLDTypeItem.m */,
+				12EF34B017E97E48005F1E2A /* LLDTypeItemContainer.h */,
+				12EF34B117E97E48005F1E2A /* LLDTypeItemContainer.m */,
+			);
+			name = actionView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -382,6 +407,9 @@
 				121C8A9117E6AEAE00CD7D96 /* LLDImageCropper.m in Sources */,
 				1253664017E85AA100EAF96F /* LLDActionView.m in Sources */,
 				1253664A17E86FEE00EAF96F /* LLDActionDatePicker.m in Sources */,
+				12EF34AF17E977A6005F1E2A /* LLDTypeItem.m in Sources */,
+				12EF34B217E97E48005F1E2A /* LLDTypeItemContainer.m in Sources */,
+				12EF34B817E981B8005F1E2A /* LLDActionTypePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

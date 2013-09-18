@@ -13,7 +13,7 @@
 #import "NSDate+Helper.h"
 #import "LLDActionView.h"
 #import "LLDActionDatePicker.h"
-
+#import "LLDActionTypePicker.h"
 
 @interface LLDTestViewController ()
 
@@ -21,6 +21,7 @@
 @property (nonatomic) BOOL isHidden;
 @property (strong, nonatomic) LLDActionView *actionView;
 @property (strong, nonatomic) LLDActionDatePicker *datePicker;
+@property (strong, nonatomic) LLDActionTypePicker *typePicker;
 
 @end
 
@@ -44,6 +45,8 @@
     [self.showButton setTitle:@"button" forState:UIControlStateNormal];
     [self.showButton addTarget:self action:@selector(clickButton) forControlEvents:UIControlEventTouchUpInside];
     self.datePicker = [[LLDActionDatePicker alloc]init];
+    self.typePicker = [[LLDActionTypePicker alloc]init];
+    self.typePicker.delegate = self;
     [self.view addSubview:self.showButton];
     
 }
@@ -56,7 +59,10 @@
 -(void)clickButton{
 //    self.actionView = [[LLDActionView alloc]init];
 //    [self.actionView showInView:self.view];
-    [self.datePicker showInView:self.view];
+//    [self.datePicker showInView:self.view];
+    [self.typePicker showInView:self.view];
 }
-
+-(void)actionTypePicker:(LLDActionTypePicker *)picker typeItemChanged:(LLDTypeItem *)item{
+    NSLog(@"%@  %d",item.name,item.type);
+}
 @end

@@ -37,6 +37,8 @@
         self.datePicker = [[UIDatePicker alloc]init];
         self.datePicker.frame = CGRectMake(10, 2, screenSize.width-20,166-4);
         self.datePicker.datePickerMode = UIDatePickerModeDate;
+        self.datePicker.contentMode = UIViewContentModeCenter;
+        self.datePicker.clipsToBounds = YES;
         [self.datePicker addTarget:self action:@selector(datePickerValueChanged) forControlEvents:UIControlEventValueChanged];
         [self.contentView addSubview:self.datePicker];
     }
